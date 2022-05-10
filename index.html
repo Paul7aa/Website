@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Architect</title>
+</head>
+<body>
+    <nav>
+        <div class = "logo">
+            <h4><a href="index.html">ARCHITECT</a></h4>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#homesection">Home</a></li>
+            <li><a href="#aboutsection">About</a></li>
+            <li><a href="#home2section">Contact</a></li>
+            <li><a href="stylespage.html">Styles</a></li>
+        </ul>
+        <div class="burger">
+            <div class = "line1"></div>
+            <div class = "line2"></div>
+            <div class = "line3"></div>
+        </div>
+    </nav>
+    <div class = "home-section" id = "homesection">
+        <section>
+            <div class ="home-content">
+                <h1>Medieval World</h1> 
+                <p> Welcome to the website dedicated to all kinds of architectural monuments: 
+                    from castles and churches through monasteries, mosques, city walls,
+                    bridges, urban and rural buildings to chapels, barrows and ancient ruins. </p>
+                    <div class="exploreDiv">
+                        <a href="stylespage.html" class="exploreButton">Explore</a>
+                    </div>
+            </div>
+        </section>
+    </div>
+
+    <div class = "about-section" id = "aboutsection">
+        <section>
+            <div class = "about-content">
+                <img src="Resources/ArchitectLogo.png" width="350" height="350">
+                <h1>ABOUT US</h1>
+                <div class = "about-contentp">
+                    <p>We want to introduce three fundamental styles of architecture,
+                        which created the foundation and set the pillars for most
+                        modern day styles. This website is a presentation of three
+                        vast architectural domains:
+                    </p>
+                    <p class = "titles">
+                        Gothic, Romanesque and Byzantine.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div> 
+    <div class = "home2-section" id ="home2section">
+        <section>
+            <div  class = "contact">
+                <h1>SEND US A MESSAGE</h1>
+                <div class = "contactform">
+                    <form>
+                        <input style="margin-top: 40px;" type = "text" class = "input-field" id = "Name" placeholder="Name">
+                        <input type = "text" class = "input-field" id = "E-mail" placeholder="E-mail">
+                        <input type = "text" class = "input-field" id = "Subject" placeholder="Subject">
+                        <textarea style = "height: 150px; resize: none;"  type= "text" class = "input-field" placeholder="Your Message" id="Message"></textarea>
+                        <p class = "errorMessage" id = "errorMessage"></p>
+                        <div id = "sendDiv" class = "sendDiv">
+                            <a class="sendButton">Send</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <img src="Resources/ArchitectLogo.png" width="100" height="100">
+        <p>For more architecture-related content, click the links below and follow us: </p> 
+        <div class = "social">
+            <a href="http://www.facebook.com" target="_blank"><img src="Resources/facebook-logo.png" width="30" height="30"></a>
+            <a href="http://www.instagram.com" target="_blank"><img src="Resources/instagram-logo.png" width="30" height="30"><i class = "fab fa-facebook-f"></i></a>
+            <a href="http://www.twitter.com" target="_blank"><img src="Resources/twitter-logo.png" width="30" height="30"><i class = "fab fa-instagram"></i></a>
+        </div>
+        <p class = "end">Copyright, 2o22</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
